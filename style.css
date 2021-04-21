@@ -1,3 +1,7 @@
+body{
+	background-color: #130202;
+}
+
 .row{
 	padding-top:2em;
 }
@@ -17,7 +21,20 @@ section {
 .container-fluid2{
 	background-color:  #ff8307;
 }
+#progressbackground{
+  width: 100%;
+  height: auto;
+  float:left;
+  background-image:url(img/coffee.jpg);
+  color:#B5C2EE;}
 
+.progress{
+	margin:10px;
+	padding: 10px;
+}
+.progressbar{
+	color:red;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -295,3 +312,4 @@ section {
 	width:100%;
 	height:auto;
 }
+
